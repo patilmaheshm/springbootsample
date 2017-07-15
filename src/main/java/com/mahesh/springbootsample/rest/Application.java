@@ -39,7 +39,7 @@ public class Application {
 		@Bean
 		CommandLineRunner init(AccountRepository accountrepository, Bookmarkrespository bookmarkrepositroy){
 			
-			return (evt)-> Arrays.asList("sonali,siddhi,mahesh,yogesh,mahesh,pushpa,smitha".split(",")).forEach(a ->{
+			return (evt)-> Arrays.asList("caty,dogy,caty1,dogy1".split(",")).forEach(a ->{
 				
 				System.out.println("saved accounts to table...");
 				
