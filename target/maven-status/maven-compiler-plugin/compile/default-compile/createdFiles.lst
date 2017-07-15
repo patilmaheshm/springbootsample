@@ -1,0 +1,7 @@
+com\mahesh\springbootsample\model\Account.class
+com\mahesh\springbootsample\rest\Bookmarkcontroller.class
+com\mahesh\springbootsample\rest\Application.class
+com\mahesh\springbootsample\model\Bookmark.class
+com\mahesh\springbootsample\rest\bookmarkvalidationexception.class
+com\mahesh\springbootsample\model\Bookmarkrespository.class
+com\mahesh\springbootsample\model\AccountRepository.class
