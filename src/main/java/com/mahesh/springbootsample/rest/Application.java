@@ -23,7 +23,7 @@ import com.mahesh.springbootsample.model.Bookmarkrespository;
 @EnableAutoConfiguration
 @EnableJpaRepositories(basePackages = {"com.mahesh.springbootsample.model"})
 @EntityScan(basePackages = {"com.mahesh.springbootsample.model"})
-@ComponentScan(basePackages = {"com.mahesh.springbootsample.model"})
+@ComponentScan(basePackages = {"com.mahesh.springbootsample.model","com.mahesh.springbootsample.rest"})
 @Configuration
 
 public class Application {
